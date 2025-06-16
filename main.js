@@ -22,79 +22,79 @@ setInterval(() => {
 const songs = [
   {
     songname: "Alors On Danse",
-    src: "Songs/alorsondanse.mp3",
+    src: "alorsondanse.mp3",
     author: "Stromae",
     id: 1
   },
   {
     songname: "All Eyez on Me",
-    src: "Songs/Pac - All Eyez on Me (Lyrics) DJ Belite Remix.mp3",
+    src: "Pac - All Eyez on Me (Lyrics) DJ Belite Remix.mp3",
     author: "2Pac",
     id: 2
   },
   {
     songname: "Hit Em Up",
-    src: "Songs/Pac - Hit Em Up (Dirty) (Music Video) HD.mp3",
+    src: "Pac - Hit Em Up (Dirty) (Music Video) HD.mp3",
     author: "2Pac",
     id: 3
   },
   {
     songname: "Pretty Little Baby",
-    src: "Songs/Connie Francis - Pretty Little Baby (Lyrics).mp3",
+    src: "Connie Francis - Pretty Little Baby (Lyrics).mp3",
     author: "Connie Francis",
     id: 4
   },
   {
     songname: "Gims",
-    src: "Songs/gims.mp3",
+    src: "gims.mp3",
     author: "Gims",
     id: 5
   },
   {
     songname: "Mockingbird",
-    src: "Songs/Eminem - Mockingbird (Lyrics).mp3",
+    src: "Eminem - Mockingbird (Lyrics).mp3",
     author: "Eminem",
     id: 6
   },
   {
     songname: "Superman",
-    src: "Songs/Eminem - Superman.mp3",
+    src: "Eminem - Superman.mp3",
     author: "Eminem",
     id: 7
   },
   {
     songname: "Without Me",
-    src: "Songs/Eminem - Without Me (Audio).mp3",
+    src: "Eminem - Without Me (Audio).mp3",
     author: "Eminem",
     id: 8
   },
   {
     songname: "Godzilla",
-    src: "Songs/Eminem ft. Juice WRLD - Godzilla (LYRICS) — Uproxx Music.mp3",
+    src: "Eminem ft. Juice WRLD - Godzilla (LYRICS) — Uproxx Music.mp3",
     author: "Eminem ft. Juice WRLD",
     id: 9
   },
   {
     songname: "Est-ce que tu m'aimes",
-    src: "Songs/Gims - Est-ce que tu maimes  (ParolesLyrics).mp3",
+    src: "Gims - Est-ce que tu maimes  (ParolesLyrics).mp3",
     author: "Gims",
     id: 10
   },
   {
     songname: "Dernière Danse",
-    src: "Songs/Indila - Dernière Danse (Clip Officiel).mp3",
+    src: "Indila - Dernière Danse (Clip Officiel).mp3",
     author: "Indila",
     id: 11
   },
   {
     songname: "MAGIE",
-    src: "Songs/Maes - MAGIE.mp3",
+    src: "Maes - MAGIE.mp3",
     author: "Maes",
     id: 12
   },
   {
     songname: "Papaoutai",
-    src: "Songs/Stromae - papaoutai (Official Video).mp3",
+    src: "Stromae - papaoutai (Official Video).mp3",
     author: "Stromae",
     id: 13
   }
