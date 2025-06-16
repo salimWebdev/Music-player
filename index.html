@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/68a9b0b573.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Audio Player</title>
+  <link rel="stylesheet" href="style.css">
+    <title>Music Player</title>
+</head>
+<body>
+<main class="flex">
+    <div class="container grid">
+        <div class="music flex">
+            <img src="./baffle.png">
+            <div class="music-controllers flex">
+                <div class="flex" style="flex-direction: column;"><h1 id="music-title">Desert Wind</h1>
+                <h3 id="artist">maatoub</h3></div>
+                
+                <audio controls src="gims.mp3" >
+                    
+                    your browser does not support the audio element.
+                </audio>
+                <input type="range" id="currentmusictime">
+                <div class="controlls flex">
+                    <i onclick="backward()" class="fa-solid fa-backward fa-2x"></i>
+                   
+                    <div id="pause-play"><i class="fa-solid fa-play fa-4x"></i></div>
+               
+                    <i  onclick="forward()" class="fa-solid fa-forward fa-2x"></i>
+                </div>
+                <div class="flex" style=" gap:6px; width: 100%; flex-direction: column; "><div class="flex" style="width: 65%; justify-content: space-between; "><i class="fa-solid fa-volume-low fa-1x"></i><i class="fa-solid fa-volume-high fa-1x"></i></div>
+                <input type="range" id="song-controller"></div>
+            </div>
+        </div>
+        
+        <div class="music-playlist flex ">
+            <div style="display: flex; gap: 15px;margin-bottom: 20px; justify-content: center; align-items: center;"><i class="fa-solid fa-music"></i><h2>Playlist</h2></div>
+            <div class="playlist-container flex" id="music-playlist">
+                <div class="music-card flex" id="music-card">
+                    <div class="flex" id="music-id">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div class="flex" id="music-id">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div id="music-id" class="flex">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div id="music-id" class="flex">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div id="music-id" class="flex">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div id="music-id" class="flex">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+                <div class="music-card flex">
+                    <div id="music-id" class="flex">1</div>
+                    <div id="music-title">Matoub Lounes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+ 
+<script src="main.js"></script>
+</body>
+</html>
